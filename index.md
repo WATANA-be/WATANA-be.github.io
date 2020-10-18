@@ -1,37 +1,81 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/WATANA-be/WATANA-be.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/WATANA-be/WATANA-be.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ <DOCTYPE! html>
+        <html>
+            <head>
+                <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
+                <link href="css/style.css" rel="stylesheet">
+                <meta charset="UTF-8">
+                <title>WATANABLOG</title>
+            </head>
+          
+            <body id="index">
+                <header>
+                    <h3>
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="images.logo.png" alt="WATANABLOG">
+                            </a>
+                        </div>
+                    </h3>
+                    <nav>
+                        <ul class="global-nav">
+                            <li><a href="portforio.html">Portfolio</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <div id="wrap">
+                <div class="content">
+                     <link href="https://fonts.googleapis.com/css2? family=Bitter&display=swap" rel="stylesheet">
+                   
+                    <h1>Welcome to my blog!!! </h1>
+                    <p>このブログでは「あなたの日常をちょっとずつ豊かにする」をモットーに、筆者の見つけた便利なツール、ファッション、ライフハックなどを紹 介していきます。</p>
+                    <img src="ichiran.png" id=ichiran> 
+                    </div>
+                
+                    <!--コピペ罪-->
+               
+                
+        <?php if( !is_paged() && is_home() ): //人気記事?>
+    <p class="center strong top-title"><i class="fa fa-line-chart"></i> 人気記事</p>
+                    <div class="popular-posts cardtype">
+    <article class="cardtype__article">
+        <a class="cardtype__link" href="★リンク先URL★">
+            <p class="cardtype__img">
+                ★<img src="hajimemashite.jpg"
+                      width=520px 
+                      height=300px>★
+        </p>
+        <div class="cardtype__article-info">
+            <h2>初めまして！！</h2>
+            </div>
+        </a>
+    </article>
+    <article class="cardtype__article">
+        <a class="cardtype__link" href="★リンク先URL★">
+            <p class="cardtype__img">
+                ★<imgタグ>★
+                </imgタグ>
+            </p>
+        
+            <div class="cardtype__article-info">
+                <h2>★タイトル★</h2>
+            </div>
+        </a>
+    </article>
+                </div>
+                <p class="center strong top-title"><i class="fa fa-thumb-tack"></i> 新着記事</p>
+                <?php endif; //END 人気記事?>
+                
+           <!--コピペ罪終わり-->     
+                
+                         
+            </div>              
+            <footer>
+                 
+                <small>(c)2020 WATANABLOG</small>
+                 
+            </footer>
+        </body>
+    </html>
+    
