@@ -2,17 +2,19 @@
 <html lang="ja">
 <head>
 <body> 
+<link rel="stylesheet" href="style.css">
 <script type="text/javascript"></script>
+
 <script>
   var name = prompt('名前を入力してください');
   // document.write(name);
   // console.log('あけましておめでとうございます！'+name+'さん。');
   document.write('あけましておめでとうございます！'+name+'さん');
 </script>
-<link rel="stylesheet" href="style.css">
+
 
 <script>
-pw = prompt( "パスワードを入れて下さい。", "" );
+pw = prompt( "パスワードを入れて下さい。キャンセルで、占い開始", "" );
 if ( pw === "sekiyama" ||
      pw === "hoshino" ||
      pw === "oishi" ||
@@ -25,6 +27,8 @@ if ( pw === "sekiyama" ||
 }
 
 </script>
+
+<script src="omikuji.js"></script>
 
   <input type="button" value="おみくじを引く！" onclick="omikuji();" id="playBtn">
 
