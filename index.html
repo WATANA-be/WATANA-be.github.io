@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+  
 <body> 
 <link rel="stylesheet" href="style.css">
 <script type="text/javascript"></script>
@@ -14,7 +15,7 @@
 
 
 <script>
-pw = prompt( "パスワードを入れて下さい。キャンセルで、占い開始", "" );
+pw = prompt( "パスワード（苗字ローマ字）を入れて下さい。キャンセルで、占い開始", "" );
 if ( pw === "sekiyama" ||
      pw === "hoshino" ||
      pw === "oishi" ||
@@ -31,7 +32,7 @@ if ( pw === "sekiyama" ||
 <script src="omikuji.js"></script>
 
   <input type="button" value="おみくじを引く！" onclick="omikuji();" id="playBtn">
-
+    <br>
     <div>
         <div id="msgHeading" style="opacity: 0;">おみくじの結果は...</div>
         <div id="msg1"></div>
