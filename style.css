@@ -1,7 +1,20 @@
-body {
+head{
    background-color: antiquewhite;            /* 背景色 */
-   background-image: url("kage1.jpg"); /* 画像 */
+   background-image: url("usi1.jpg"); /* 画像 */
    background-size: cover;               /* 全画面 */
    background-attachment: fixed;         /* 固定 */
    background-position: center center;   /* 縦横中央 */
 }
+
+body {
+   background-color: antiquewhite;            /* 背景色 */
+   background-image: url("usi1.jpg"); /* 画像 */
+   background-size: cover;               /* 全画面 */
+   background-attachment: fixed;         /* 固定 */
+   background-position: center center;
+   font-style:"ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+   font-size: 2.4rem;
+     /* 縦横中央 */
+   
+}
+
